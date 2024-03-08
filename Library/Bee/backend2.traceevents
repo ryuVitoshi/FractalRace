@@ -1,0 +1,784 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1709861270837267, "dur":116, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709861270837490, "dur":40390, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709861270877885, "dur":203, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709861270878169, "dur":111, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709861270878357, "dur":172, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1709861270878543, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1709861270878715, "dur":172, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270878906, "dur":165, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1709861270879083, "dur":182, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270879283, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1709861270879475, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/level1.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270879656, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/level2" }}
+,{ "pid":12345, "tid":0, "ts":1709861270879808, "dur":149, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/level2.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270879968, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/level3" }}
+,{ "pid":12345, "tid":0, "ts":1709861270880167, "dur":209, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/level3.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270880394, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1709861270880583, "dur":193, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270880795, "dur":507, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1709861270881307, "dur":484, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1709861270881811, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1709861270881963, "dur":156, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1709861270882138, "dur":149, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270882304, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1709861270882489, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270882691, "dur":179, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1709861270882957, "dur":163, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270883139, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":0, "ts":1709861270883306, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861270883468, "dur":180, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270883670, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270883825, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1709861270884031, "dur":153, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270884203, "dur":159, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270884381, "dur":176, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270884576, "dur":197, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270884798, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270884966, "dur":198, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270885180, "dur":180, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270885378, "dur":151, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270885552, "dur":1256, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270886815, "dur":625, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270887446, "dur":547, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270888004, "dur":496, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270888505, "dur":565, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270889136, "dur":545, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270889686, "dur":600, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270890292, "dur":540, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270890837, "dur":579, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270891421, "dur":538, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270891964, "dur":469, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270892437, "dur":179, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270892636, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270892785, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270892897, "dur":183, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270893099, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270893190, "dur":805, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270894022, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270894122, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270894228, "dur":186, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270894433, "dur":175, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270894627, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270894774, "dur":251, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270895045, "dur":184, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270895254, "dur":166, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270895495, "dur":161, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270895686, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270895865, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270896020, "dur":162, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270896199, "dur":176, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270896394, "dur":196, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270896608, "dur":160, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270896787, "dur":217, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270897023, "dur":149, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270897184, "dur":162, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270897364, "dur":175, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270897557, "dur":151, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270897727, "dur":218, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270897959, "dur":138, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270898110, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270898302, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270898488, "dur":165, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270898676, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270898865, "dur":178, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270899151, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270899315, "dur":127, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270899461, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270899629, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270899801, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270899987, "dur":204, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270900216, "dur":157, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270900388, "dur":165, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270900571, "dur":177, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270900766, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270900932, "dur":163, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270901122, "dur":142, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270901282, "dur":184, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270901484, "dur":198, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270901696, "dur":127, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270901841, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270902002, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270902194, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270902473, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270902656, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270902810, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270902997, "dur":148, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270903163, "dur":159, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270903340, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270903522, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270903717, "dur":152, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270903882, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270904057, "dur":172, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270904248, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270904398, "dur":160, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270904567, "dur":194, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270904779, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270904929, "dur":161, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270905108, "dur":159, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270905285, "dur":157, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270905460, "dur":161, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270905642, "dur":151, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270905810, "dur":142, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270906051, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270906245, "dur":142, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270906399, "dur":278, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270906685, "dur":158, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270906861, "dur":137, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270907016, "dur":183, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270907218, "dur":152, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270907388, "dur":158, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270907566, "dur":163, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270907747, "dur":193, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270907958, "dur":156, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270908129, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270908310, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270908502, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270908665, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270908843, "dur":195, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270909057, "dur":166, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270909242, "dur":153, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270909406, "dur":245, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270909702, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270909934, "dur":471, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270910432, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270910528, "dur":231, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270910773, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270910955, "dur":158, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270911138, "dur":139, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270911296, "dur":175, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270911489, "dur":160, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270911667, "dur":177, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270911862, "dur":162, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270912042, "dur":152, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270912212, "dur":160, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270912391, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270912539, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270912668, "dur":202, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270912889, "dur":186, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270913093, "dur":178, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270913289, "dur":160, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270913495, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270913658, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270913845, "dur":202, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270914072, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270914217, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270914426, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270914609, "dur":163, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270914790, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270914983, "dur":129, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270915131, "dur":217, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270915363, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270915545, "dur":182, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270915737, "dur":201, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270915953, "dur":141, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270916113, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270916265, "dur":141, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270916418, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270916609, "dur":176, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270916799, "dur":258, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270917140, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270917332, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270917519, "dur":177, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270917715, "dur":165, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270917899, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270918062, "dur":134, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270918206, "dur":178, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270918396, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270918576, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270918769, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270918923, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270919077, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270919272, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270919435, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270919632, "dur":137, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270919797, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270919965, "dur":171, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270920155, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270920317, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270920544, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270920684, "dur":221, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270920924, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270921109, "dur":187, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270921314, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.AdaptivePerformance.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270921463, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270921648, "dur":118, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270921792, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270921929, "dur":188, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270922135, "dur":158, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270922311, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270922500, "dur":210, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270922714, "dur":204, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Subsystem.Registration.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270922930, "dur":182, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270923127, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270923272, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270923459, "dur":149, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270923633, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270923802, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1709861270924008, "dur":146, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1709861270924195, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1709861270924345, "dur":153, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":0, "ts":1709861270924510, "dur":177, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/FractalRace.exe" }}
+,{ "pid":12345, "tid":0, "ts":1709861270924690, "dur":187, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270924891, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270925037, "dur":154, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1709861270925209, "dur":175, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1709861270925403, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270925589, "dur":179, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1709861270925788, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270925961, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1709861270926161, "dur":149, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1709861270926333, "dur":142, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270926501, "dur":214, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1709861270926735, "dur":141, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270926895, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1709861270927077, "dur":202, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1709861270927298, "dur":153, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270927469, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1709861270927661, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270927834, "dur":203, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":0, "ts":1709861270928089, "dur":159, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1709861270928266, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":0, "ts":1709861270928453, "dur":188, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1709861270928659, "dur":198, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270928876, "dur":165, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709861270878301, "dur":50741, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709861270929069, "dur":2736580, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709861273665765, "dur":1457, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1709861270881751, "dur":47337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270929094, "dur":203, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270929298, "dur":159, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270929457, "dur":193, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270929651, "dur":176, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270929827, "dur":176, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270930003, "dur":237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270930240, "dur":170, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270930410, "dur":175, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270930585, "dur":129, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270930714, "dur":1290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270932049, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861270932172, "dur":2064091, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861270932130, "dur":2064134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861272996275, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273291814, "dur":282, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861272996363, "dur":295803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273292204, "dur":7243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273292203, "dur":7245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273300171, "dur":234, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273299468, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273300438, "dur":13872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273300436, "dur":13875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273314331, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273315138, "dur":6945, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273315137, "dur":6948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273322834, "dur":262, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273322120, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273323128, "dur":7843, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273323127, "dur":7845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273330981, "dur":75, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273331075, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273331961, "dur":17084, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273331959, "dur":17088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273349926, "dur":331, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273349067, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273350317, "dur":16249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273350316, "dur":16252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273367305, "dur":325, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273366586, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273367663, "dur":10428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273367662, "dur":10431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273378851, "dur":247, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273378113, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273379130, "dur":18456, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273379128, "dur":18459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273397628, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273398657, "dur":94349, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273398656, "dur":94352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273493016, "dur":130, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273494567, "dur":287, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273493149, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273494889, "dur":11557, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273494887, "dur":11566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273506461, "dur":134, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273507810, "dur":278, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273506599, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273508123, "dur":10348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273508122, "dur":10351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273518494, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273519374, "dur":18358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273519372, "dur":18362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273537743, "dur":133, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273539000, "dur":281, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273537879, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273539316, "dur":8444, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273539314, "dur":8448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273547770, "dur":136, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273547909, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709861273549179, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273549389, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273549448, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273549582, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273549665, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273549763, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273549977, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273550212, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273551237, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273552854, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273551982, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273552940, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273552938, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273553017, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273554624, "dur":155, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273553993, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273555541, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273554854, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273601634, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273555708, "dur":46070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273607759, "dur":1195, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273601844, "dur":7144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709861273609864, "dur":134, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273609043, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709861273611536, "dur":258, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273610109, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709861273611833, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273612510, "dur":249, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273611902, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709861273612815, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273613544, "dur":250, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273612883, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709861273613842, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273613909, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709861273618706, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709861273619391, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709861273620405, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709861273621207, "dur":30285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1709861273654270, "dur":236, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273651607, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1709861273654589, "dur":152, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273654743, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709861273657592, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273657015, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1709861273657737, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709861273659888, "dur":82, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273659973, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1709861273660638, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709861273664511, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709861273663846, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709861273664698, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1709861273665328, "dur":284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861270881743, "dur":47331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861270929075, "dur":2926, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861270932679, "dur":331, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1709861270933036, "dur":5412, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861270938459, "dur":30334, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1709861270968795, "dur":5598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1709861270974650, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270974800, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270974929, "dur":475, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270975405, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270975641, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270975954, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270976075, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270976145, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270976277, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270976446, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270976653, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270976752, "dur":324, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270977077, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270977151, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270977206, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Assets\\Photon\\PhotonLibs\\WebSocket\\websocket-sharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270977410, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Assets\\Photon\\PhotonLibs\\netstandard2.0\\Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861270977656, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player70fd9305-inputdata.json" }}
+,{ "pid":12345, "tid":2, "ts":1709861270933034, "dur":44769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861270978629, "dur":124015, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271104062, "dur":5483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271104061, "dur":5485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271109657, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271111286, "dur":196785, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1709861271111284, "dur":196788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1709861271308094, "dur":16363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1709861271324496, "dur":59610, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1709861271324495, "dur":59613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1709861271384883, "dur":240, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271384278, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1709861271385206, "dur":74, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271406216, "dur":125, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271385282, "dur":21092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271440501, "dur":120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271406519, "dur":34132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1709861271440715, "dur":40359, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271440713, "dur":40362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271481147, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271481915, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271536395, "dur":117, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271481991, "dur":54554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1709861271536636, "dur":36572, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271536634, "dur":36576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271573897, "dur":237, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271573233, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271574202, "dur":65, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271580870, "dur":115, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271574269, "dur":6796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1709861271581150, "dur":80, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271602799, "dur":135, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271581305, "dur":21659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1709861271603025, "dur":9963, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271603023, "dur":9967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271613062, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271618803, "dur":421, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271613840, "dur":5398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1709861271619281, "dur":6949, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271619279, "dur":6952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271626920, "dur":1006, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271626254, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271627967, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1709861271628109, "dur":72, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271647119, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271628185, "dur":19109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1709861271647347, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1709861271647431, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271662979, "dur":430, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271647575, "dur":15850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1709861271663489, "dur":23119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271663488, "dur":23122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271687372, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271686681, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271699230, "dur":288, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271687584, "dur":11946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1709861271699556, "dur":6952, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271699555, "dur":6955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271706534, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709861271735186, "dur":115, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271707394, "dur":27938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1709861271735418, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1709861271770781, "dur":429, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271735612, "dur":35611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1709861271771265, "dur":93797, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861271771263, "dur":93800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861271866036, "dur":257, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861271865113, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861271866327, "dur":112934, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861271866325, "dur":112937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861271979284, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861271982968, "dur":30508, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1709861271982968, "dur":30510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace.exe" }}
+,{ "pid":12345, "tid":2, "ts":1709861272013487, "dur":142, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272015529, "dur":318, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272013631, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace.exe" }}
+,{ "pid":12345, "tid":2, "ts":1709861272015921, "dur":74, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272045600, "dur":119, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272016047, "dur":29757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1709861272045843, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Assets\\Photon\\PhotonLibs\\netstandard2.0\\Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272045841, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272046163, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272047012, "dur":4827, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272047011, "dur":4830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272053139, "dur":107, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272051860, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272053357, "dur":5243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272053356, "dur":5245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272058610, "dur":133, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272058746, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272059531, "dur":5203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272059520, "dur":5215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272064743, "dur":85, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272064831, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272065668, "dur":4889, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272065658, "dur":4901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272070567, "dur":93, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272071343, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272070664, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272071503, "dur":4726, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272071502, "dur":4729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272076250, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272077099, "dur":4730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Subsystem.Registration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272077098, "dur":4732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Subsystem.Registration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272082522, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272081850, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.Subsystem.Registration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272082665, "dur":4600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272082664, "dur":4602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272087303, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272088096, "dur":4636, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272088095, "dur":4638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272092754, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272093558, "dur":4648, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272093557, "dur":4650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272098226, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272098975, "dur":5118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272098974, "dur":5120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272104807, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272104114, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272104942, "dur":5458, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272104941, "dur":5461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272110410, "dur":149, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272110563, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272111563, "dur":4759, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272111561, "dur":4762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272117142, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272116342, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272117303, "dur":5337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272117302, "dur":5340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272122663, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272123548, "dur":5484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AdaptivePerformance.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272123547, "dur":5486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.AdaptivePerformance.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272129059, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.AdaptivePerformance.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272129946, "dur":4911, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272129944, "dur":4914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272134932, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272135723, "dur":17714, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272135721, "dur":17717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272153458, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272154215, "dur":24625, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272154214, "dur":24627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272178884, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272179589, "dur":33440, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272179588, "dur":33443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272213914, "dur":241, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272213050, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272214196, "dur":17562, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272214195, "dur":17565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272231768, "dur":102, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272232568, "dur":124, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272231888, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272232761, "dur":5341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272232759, "dur":5345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272238876, "dur":314, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272238123, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272239282, "dur":5656, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272239280, "dur":5659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272245719, "dur":257, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272244959, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272246009, "dur":5664, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272246007, "dur":5668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272252474, "dur":253, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272251711, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272252759, "dur":5913, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272252758, "dur":5916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272258682, "dur":101, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272259573, "dur":309, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272258791, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272259936, "dur":20161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272259934, "dur":20164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272280888, "dur":242, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272280119, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272281162, "dur":21315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272281161, "dur":21317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272303354, "dur":242, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272302498, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272303641, "dur":5431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272303639, "dur":5438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272310734, "dur":334, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272309109, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272311105, "dur":24301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272311104, "dur":24309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272336200, "dur":246, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272335434, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272336489, "dur":14537, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272336487, "dur":14541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272351861, "dur":265, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272351048, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272352264, "dur":7946, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272352262, "dur":7949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272361095, "dur":248, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272360249, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272361413, "dur":6139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272361411, "dur":6143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272367563, "dur":132, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272369047, "dur":147, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272367698, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272369287, "dur":7085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272369286, "dur":7087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272376382, "dur":88, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272376473, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272378095, "dur":21278, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272378082, "dur":21292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272400106, "dur":236, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272399394, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272400385, "dur":17946, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272400383, "dur":17949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272419094, "dur":233, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272418351, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272419360, "dur":9233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272419359, "dur":9236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272429456, "dur":266, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272428614, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272429760, "dur":5694, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272429759, "dur":5699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272436517, "dur":327, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272435484, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272436877, "dur":24734, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272436876, "dur":24737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272462704, "dur":276, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272461681, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272463012, "dur":15292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272463011, "dur":15300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272479117, "dur":253, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272478331, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272479435, "dur":5191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272479433, "dur":5195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272484637, "dur":90, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272485723, "dur":320, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272484730, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272486076, "dur":25408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272486075, "dur":25411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272511495, "dur":135, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272512750, "dur":243, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272511633, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272513025, "dur":20872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272513024, "dur":20875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272534704, "dur":236, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272533919, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272534982, "dur":26337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272534981, "dur":26340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272562042, "dur":233, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272561341, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272562307, "dur":24458, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272562306, "dur":24460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272587524, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272586786, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272587687, "dur":15271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272587686, "dur":15274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272602986, "dur":102, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272604570, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272603091, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272604764, "dur":21377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272604762, "dur":21381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272626162, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272627326, "dur":20239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272627319, "dur":20247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272647642, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272648561, "dur":8045, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272648559, "dur":8048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272656616, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272656706, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272657511, "dur":5600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272657510, "dur":5602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272663121, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272663192, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272663898, "dur":7934, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272663897, "dur":7937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272672554, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272671859, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272672726, "dur":5499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272672725, "dur":5502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272678245, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272679017, "dur":24561, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272679015, "dur":24565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272703616, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272704364, "dur":17489, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272704362, "dur":17492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272722619, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272721875, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272722729, "dur":23737, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272722728, "dur":23740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272747267, "dur":244, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272746488, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272747548, "dur":22111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272747547, "dur":22114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272770656, "dur":254, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272769680, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272770943, "dur":5663, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272770941, "dur":5666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272777522, "dur":286, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272776627, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272777842, "dur":5578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272777840, "dur":5581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272784316, "dur":247, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272783450, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272784596, "dur":8062, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272784595, "dur":8064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272793441, "dur":236, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272792680, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272793737, "dur":140718, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272793735, "dur":140722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272935892, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272934477, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272936078, "dur":26187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272936077, "dur":26190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272963100, "dur":247, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272962286, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272963485, "dur":22619, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272963483, "dur":22627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272986119, "dur":124, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272987760, "dur":246, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272986246, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272988040, "dur":5508, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272988038, "dur":5512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272994796, "dur":274, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861272993598, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272995102, "dur":5731, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861272995101, "dur":5734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273045961, "dur":307, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273000855, "dur":45426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273046322, "dur":18963, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273046318, "dur":18969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273065307, "dur":228557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273293898, "dur":189906, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273293896, "dur":189909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273483826, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273484698, "dur":6514, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273484688, "dur":6525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273491234, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273492071, "dur":5694, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273492070, "dur":5697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273497786, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273498531, "dur":5163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273498530, "dur":5166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273503716, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273504441, "dur":7041, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273504440, "dur":7044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273511509, "dur":130, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273512284, "dur":254, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273511642, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273512615, "dur":23013, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273512614, "dur":23016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273535650, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273536521, "dur":5813, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273536520, "dur":5815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273542356, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273543088, "dur":5336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273543087, "dur":5338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273548443, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709861273549326, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273549489, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273549605, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273549713, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273549895, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273550051, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273550149, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273551201, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273550384, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273551955, "dur":189, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273551360, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273552864, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273552239, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273553013, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Projects\\FractalRace\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273553012, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273553150, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273553854, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273554742, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273602756, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273555577, "dur":47330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273602943, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273603640, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273604785, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273604862, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273605763, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273606262, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273606588, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273607267, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273607266, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/FractalRace_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273607374, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273608862, "dur":37509, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273608861, "dur":37512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273646391, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709861273651867, "dur":244, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709861273648701, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1709861273652245, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1709861273656293, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1709861273658498, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1709861273659168, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1709861273661339, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1709861273661897, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/FractalRace_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709861273669640, "dur":2625, "ph":"X", "name": "ProfilerWriteOutput" }
+,

@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj": {}
+  },
+  "projects": {
+    "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonRealtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonRealtime.csproj",
+        "projectName": "PhotonRealtime",
+        "projectPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonRealtime.csproj",
+        "packagesPath": "C:\\Users\\Студент\\.nuget\\packages\\",
+        "outputPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\Temp\\obj\\Debug\\PhotonRealtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Студент\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.csproj",
+        "projectName": "PhotonUnityNetworking",
+        "projectPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.csproj",
+        "packagesPath": "C:\\Users\\Студент\\.nuget\\packages\\",
+        "outputPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\Temp\\obj\\Debug\\PhotonUnityNetworking\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Студент\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonRealtime.csproj": {
+                "projectPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonRealtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.csproj",
+        "projectName": "PhotonUnityNetworking.Utilities",
+        "projectPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Студент\\.nuget\\packages\\",
+        "outputPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\Temp\\obj\\Debug\\PhotonUnityNetworking.Utilities\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Студент\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonRealtime.csproj": {
+                "projectPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonRealtime.csproj"
+              },
+              "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.csproj": {
+                "projectPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj",
+        "projectName": "PhotonUnityNetworking.Utilities.Culling.Editor",
+        "projectPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj",
+        "packagesPath": "C:\\Users\\Студент\\.nuget\\packages\\",
+        "outputPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\Temp\\obj\\Debug\\PhotonUnityNetworking.Utilities.Culling.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Студент\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "E:\\Program Files\\Unity\\Projects\\FractalRace\\PhotonUnityNetworking.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
